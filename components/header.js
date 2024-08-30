@@ -2,12 +2,11 @@ import styles from './header.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-
 export default function Header() {
     return (
         <div className={styles.header}>
             <nav className={styles.navbar}>
-                <Link href='/' className={styles.nav_logo}>
+                <Link href='/'className={styles.nav_logo}>
                     <Image src='/logo.jpg' width={64} height={64}></Image>
                     <span>portfolio</span>
                 </Link>
